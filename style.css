@@ -44,17 +44,26 @@ body {
 
 .apresentacao-texto-redes {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .link {
-    background-color: #e6953e;
-    width: 280px;
+    border: 3px solid #e6953e;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0;
     text-decoration: none;
-    color: white;
+    color: #f6f6f6;
     font-family: 'sigmar', sans-serif;
+}
+
+.subtitulo-links {
+    font-family: 'sigmar', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
